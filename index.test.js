@@ -61,7 +61,7 @@ describe("validate()", function() {
       }
     }
   }, function(data, key) {
-    it("validates as expected when "+key, function() {
+    it("returns expected results when "+key, function() {
       let schemas = data.schema ? {
         [data.name]: data.schema
       } : undefined;
